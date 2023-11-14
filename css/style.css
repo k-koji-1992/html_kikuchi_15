@@ -337,16 +337,18 @@ input[type="text"],input[type="email"]{
 
 .check_lb {
   display:block;
-  text-align:right;
+  text-align:left;
+  padding-left: 300px;
+
+
 
 
 }
 
 textarea {
-  border-radius:5px;
-  padding: 30px;
-  height: 160px;
-  font-size: 15px;
+ width: 300px;
+
+
 }
 .btn-area{
   text-align: center;

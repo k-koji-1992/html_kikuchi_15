@@ -229,6 +229,7 @@ font-weight: bold;
 
 .newstext {
 width: 300px;
+text-align: left;
 
 }
 
@@ -294,6 +295,8 @@ line-height: 46px;
   
   .date {
    font-size: 16px;
+   margin-top: 24px;
+   margin-bottom: 30px;
   }
 
   #access {
@@ -306,7 +309,7 @@ line-height: 46px;
  
 }
 form {
-  width:460px;
+  width: 600px;
   margin:0 auto;
 }
 .item {
@@ -323,13 +326,22 @@ form {
 .inputs {
   float: left;
   width:300px;
-  
 }
+
 input[type="text"],input[type="email"]{
   
   border-radius:5px;
+ 
   
 }
+
+.check_lb {
+  display:block;
+  text-align:right;
+
+
+}
+
 textarea {
   border-radius:5px;
   padding: 30px;
@@ -359,4 +371,11 @@ textarea {
     text-align: center;
      background-color: #707070;
      color: white;
+}
+
+#access {
+  padding-top: 60px;
+  padding-bottom: 60px;
+ background-color: #fafafa;
+
 }
